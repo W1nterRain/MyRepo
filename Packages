@@ -1,0 +1,262 @@
+Package: byg.iosios.net.zhuxiao
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./byg.iosios.net.zhuxiao_0.0.3_iphoneos-arm64e.deb
+Size: 4888
+MD5sum: 70c0b283e918b442d2ecb9d000f0c00d
+SHA1: 7df952ec338d64726fff0542ab1e8a394679484b
+SHA256: d4fd60d00aca1dd941700b19633a911b534601c8651552ec45ac2fa00aee08ed
+Section: 系统增强
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Author: Brend0n
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 注销不锁屏-Roothide
+Sponsor: 搬运工
+
+Package: com.baiy.keyboardhook
+Version: 2.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: baiy(QQ：961666883)
+Installed-Size: 524
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./keyboardhook-2.1-3.arm64e.deb
+Size: 60328
+MD5sum: ec9b0273b7dd11630f275592dc109371
+SHA1: ef5c1f163cdbbb82a077163051f353212cb24c18
+SHA256: 6cd6b25ed1a60239cb8a86ec3cb4aa7b0c9208718d2599b5c8d323e72222bee9
+Section: Tweaks
+Description: 关于系统输入法和微信输入法的一些自定义，让键盘更个性化！
+Author: baiy
+Name: 白衣KeyboardHook
+
+Package: com.charlieleung.liquidify
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 31312
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./液态玻璃_2575636441.deb
+Size: 8211230
+MD5sum: 042923c2eb8eec524e600e6f681daf68
+SHA1: 97fe32838ad84d61198923c62603dfeae636f9bc
+SHA256: 8d40d71c076a606daf1a5c66c9c50172bf5ee8bf3e4f6f6ec9b6de850aad8490
+Section: Tweaks
+Description: 为 iOS 界面注入液态玻璃质感。
+Author: Charlie Leung
+Name: Liquidify
+
+Package: com.charlieleung.pbwallpaper
+Version: 2.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 18052
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0),mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./com.charlieleung.pbwallpaper_2.0.2_iphoneos-arm64e.deb
+Size: 13435946
+MD5sum: 4611d32431801359e19ef88b48987f80
+SHA1: 8b795e072dccf4a155733837a1b64a5e023c3db9
+SHA256: 01bb6c30c47c6533f5d0ae2a4490b67f9599fbae2789116dcfd269dc67f60448
+Section: Tweaks
+Description: 越狱版交互壁纸，解锁满血版交互壁纸，支持 ios16 以上系统。
+Author: Charlie Leung
+Name: PBWallpaper
+
+Package: com.charlieleung.trollopenjb
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 12580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0),mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./com.charlieleung.trollopenjb_1.4.0_iphoneos-arm64e.deb
+Size: 9991528
+MD5sum: 4d707d0722fb80299ec38feeb416c2ec
+SHA1: 3552f2ef156d4148713e994837bfa6082e14a9dc
+SHA256: 875b571f6df5ac91812beda1a7d8f03544c1bbc07088b129405751d86d722460
+Section: Tweaks
+Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
+Author: Charlie Leung
+Name: TrollOpen
+
+Package: com.hang.kaiguan
+Version: 9.9
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 1568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./com.hang.kaiguan_9.9_iphoneos-arm64e.deb
+Size: 331836
+MD5sum: c09abefdcce8e797defc094cf9044fdf
+SHA1: 588d9e35da0ee150067fba3f1f0d4f117400ba9c
+SHA256: 0b083a5bbb482ba2a8399eebd940e37f944430271d01387f1086665f694d400a
+Section: Tweaks
+Description: 简单的开关
+Author: 航
+Depiction: https://pic1.imgdb.cn/item/69e5a39901316fbabf2ca364.png
+Icon: https://pic1.imgdb.cn/item/69e5a39901316fbabf2ca364.png
+Name: 动态开关
+
+Package: com.hk.rootless.crane
+Version: 1.3.14-6
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.hk.crane.cn.rl, com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices, com.opa334.crane
+Filename: ./com.hk.rootless.crane_1.3.14-6_iphoneos-arm64e.deb
+Size: 1462844
+MD5sum: f7dc502928a3af5569e81f4a0f308211
+SHA1: f12d5170dcc63944a001cbb66238f8d216af661a
+SHA256: d6aeaa0ab936cb0c7a6c9ec8039bc4034487d84f4bc8c9c190eeda89b103aee6
+Section: 嗨-系统
+Description: 为应用程序提供多个容器，账号多开神器。
+Author: opa334
+Name: Crane(rootless)
+
+Package: com.my.lingdongvideo
+Version: 0.1.4.587
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 1184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: ./com.my.lingdongvideo_0.1.4.587_iphoneos-arm64e.deb
+Size: 346772
+MD5sum: 0639126f425be9e65db61f8e2ac75e34
+SHA1: 9a4ab772fa9e92e4e66bf25ecf344a9045a92a65
+SHA256: b99e2d167b9db849c54abb18942f01fec898ba97dc8b76ab45148cdb0e943630
+Section: Tweaks
+Description: 为灵动岛音乐播放、展开态和通知场景增加统一视频背景。
+Author: 夜辰
+Name: 灵动岛视频背景
+
+Package: com.snail.always120.roothide
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Snail <mu514983786@gmail.com>
+Installed-Size: 992
+Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
+Filename: ./com.snail.always120.roothide_1.2.0_iphoneos-arm64e.deb
+Size: 260898
+MD5sum: 6aad4ed526a9a8b7425b5974c84e821e
+SHA1: 5a7a53fdc8126d6fa92bc965d68434968bb7c642
+SHA256: 50c94da4bcb38ffad2b71101e94a12105ac81fef1d5edd9aa252953677bb5d00
+Section: Tweaks
+Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
+Author: Snail <mu514983786@gmail.com>
+Name: 蜗牛自适应+锁定120 Always120
+
+Package: com.wkk.keyboardcustomizer
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./com.wkk.keyboardcustomizer_1.0-3_iphoneos-arm64e.deb
+Size: 23900
+MD5sum: ef8e27a390a4ce48544d6920ec0e4939
+SHA1: 8aa3a96f46be119722e2e61669fcfc8e1a1c3cf4
+SHA256: 56b8ab56b154cb2f71d7f33d1366f8a5ccaa938df54a6cfacf89cca3f92aa907
+Section: Tweaks
+Description: 输入法调整。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: KeyboardCustomizer
+
+Package: com.wkk.sp60hook
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./锁屏底部圆角.deb
+Size: 4192
+MD5sum: 4cb8d4d3cfa1a2c35db62bcea4726f9e
+SHA1: 6ca1f19fb6fa3198b24cead5165a0d5415ecbf1f
+SHA256: c1f1c170be9b1af12211a0c89c5c9958045414478c3b94a10d242ac69cc0dd56
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 锁屏圆角
+
+Package: com.wkk.tmtzhook
+Version: 1.0-8
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.wkk.tmtzhook_1.0-8_iphoneos-arm64e.deb
+Size: 5208
+MD5sum: 282665b219cbbeeeb9eaa1fc47407cd1
+SHA1: 298df1b48fc2dc4506b1a49d04e39baacdadd232
+SHA256: c79f5bdf5b1650d2a9a6d8636edc42005a4c36e8e72b7ee37220ec87ac89d3f7
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 透明通知
+
+Package: com.yechen.ccmodulebackground
+Version: 0.2.235
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 8716
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader, mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.codex.ccmodulebackground
+Replaces: com.codex.ccmodulebackground
+Filename: ./com.yechen.ccmodulebackground_0.2.235_iphoneos-arm64e.deb
+Size: 1165240
+MD5sum: e866cb9de29c454d994eaf2d3cf5c6e6
+SHA1: e9b8ea0ec64605b5066265fc4d77c658cfeb0cb2
+SHA256: ec3d841e09ddeeecf4ef7f6ceb3a04d92ad69eca57ef6b12ed5618c55126673a
+Section: Tweaks
+Description: 自建控制中心原生模块，支持承载系统原生模块、自定义尺寸和背景。
+Tag: role::enduser, purpose::extension, cydia::requires-respring
+Author: 夜辰
+Icon: file:///var/jb/Library/PreferenceBundles/CCModuleBackgroundPrefs.bundle/icon@3x.png
+Name: CC模块背景
+
+Package: com.yechen.ccplayer
+Version: 1.7.573
+Architecture: iphoneos-arm64e
+Maintainer: 夜辰
+Installed-Size: 2048
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./cc播放器_1.7.573_iphoneos-arm64e.deb
+Size: 9122010
+MD5sum: 145b3280a0f2d30601f9d8fa5fc7a3fc
+SHA1: 11fdadf3296a7116d63645707e58ef00e8226b19
+SHA256: 78183436ff16c97a87d91cb9fb47bcbf688b358b6d75413c9d7359faf1c379a9
+Section: Tweaks
+Description: 这是一款加强控制中心3x2/4x2播放器美化的插件
+Author: 夜辰
+Name: cc播放器
+
+Package: org.mr.icleanerprorl
+Version: 7.10.0k-rootless
+Architecture: iphoneos-arm64e
+Maintainer: MainRepo <xuanhua880@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./org.mr.icleanerprorl_7.10.0k-rootless_iphoneos-arm64e.deb
+Size: 2127754
+MD5sum: fcb250d1bdda1275694fbfab0d9c917b
+SHA1: 41db177585abc0f48b07b678b360f35570c75066
+SHA256: 9c057865090c224806de632bad00da3d6645b59f319f1f2b18a0f7c9060e5a68
+Section: Utilities
+Description: The first real iOS system cleaner & optimizer 第一个真正的iOS系统清理和管理实用程序
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
+Name: iCleaner Pro
+

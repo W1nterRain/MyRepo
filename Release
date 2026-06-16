@@ -1,0 +1,8 @@
+Origin:                         W1nter&🏠
+Label: 抱歉自用
+Suite: stable
+Version: 1.0
+Codename: local
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Filza搭建的本地插件备份源
