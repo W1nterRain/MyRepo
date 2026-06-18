@@ -277,13 +277,13 @@ Icon: file:///var/jb/Library/PreferenceBundles/CCModuleBackgroundPrefs.bundle/ic
 Name: CC模块背景
 
 Package: com.yechen.ccplayer
-Version: 1.7.586
+Version: 1.7.573
 Architecture: iphoneos-arm64e
 Maintainer: 夜辰
 Installed-Size: 2048
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Filename: ./cc播放器_1.7.586_iphoneos-arm64e.deb
+Filename: ./cc播放器_1.7.5pe_iphoneos-arm64e.deb
 Size: 9190768
 MD5sum: 6102d4c86d2ed38e51293bb2585f35e6
 SHA1: 185ea445c1989d5c6a8c4142c9bcca0256808348
